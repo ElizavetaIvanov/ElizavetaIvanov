@@ -38,9 +38,9 @@
       <center>
         <nav>
           <ul class="nav">
-            <li><a href="./AAA.html">Главная!</a></li>
-            <li><a href="./CCC.html">История о каждом :)</a></li>
-            <li><a href="./BBB.html">Кто мы?</a></li>
+            <li><a href="./LAB2">Главная!</a></li>
+            <li><a href="./LAB2.1">История о каждом :)</a></li>
+            <li><a href="./LAB2.2">Кто мы?</a></li>
           </ul>
           <form>
             <h1>Google:</h1>
@@ -64,10 +64,7 @@
            </main>
   </body>
 <footer>
-  <center>
-Я молодец&nbsp;&copy;&nbsp;2020&ndash;2021
-</center>
-</footer>
+
 
 
    
