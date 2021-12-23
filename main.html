@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A</title>
+	<link href="./css/main.css" rel="stylesheet" type="text/css">
+	<link href="./css/styles.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="./Untitled-1.js"></script>
+</head>
+<body>
+<body onload="clockTimer();">
+	<div class="wrapper">
+		<header>
+			<div class="logo">
+				<a class="logo_link" href="./main.html">
+					<h1>What</h1>
+				</a>
+				<a class="logo_link" href="./about.html">
+					<h1>Cats</h1>
+				</a>
+				<a class="logo_link" href="./books.html">
+					<h1>Love</h1>
+				</a>
+			</div>
+		</header>
+		<div class="content">
+			<div class="block">
+				На сайте представлены одни из самых топовых книг про котов.
+			  </div>
+			<h2 class="h2main"> На сайте представлены одни из самых топовых книг про котов.
+			</h2>
+			<input type="button" onclick="alert('С НАЖАТИЕМ КОТЫ ЗАХВАТИЛИ МИР')" value="Нажми, если сможешь">
+		</div>
+		<div class="slider">
+			<div class="item">
+				<img src="./images/cat1.jpg" alt="Первый слайд">
+				<div class="slideText">Её зовут Нюся</div>
+			</div>
+			<div class="item">
+				<img src="./images/cat2.jpg" alt="Второй слайд">
+				<div class="slideText">Она любит лежать на спинке</div>
+			</div>
+
+			<div class="item">
+				<img src="./images/cat6.jpg" alt="Третий слайд">
+				<div class="slideText">А животик у неё белый :3</div>
+			</div>
+		</div>
+		<div class="slider-dots">
+			<span class="slider-dots_item" onclick="currentSlide(1)"></span>
+			<span class="slider-dots_item" onclick="currentSlide(2)"></span>
+			<span class="slider-dots_item" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
+	<div class="clockpage">
+		<span id="clock"></span>
+		<span id="dayOfWeek"></span>
+	</div>
+</body>
+</html>
