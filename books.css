@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+.header1 {
+    text-align: center;
+    padding: 15px
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .2s;
+}
+
+.book:hover {
+    transform: scale(0.9);
+}
+
+img {
+    width: 240px;
+    height: 360px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
