@@ -1,0 +1,28 @@
+.clockpage
+{
+    margin: auto;
+    max-width: 500px;
+    min-width: 100px;
+
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+html {
+    height: 100%;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
